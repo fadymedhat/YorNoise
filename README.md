@@ -21,10 +21,13 @@ We listened to all the captured clips, which were 5 minutes each to validate the
  
  A summary of the dataset is listed below:
  
+  | Clip Duration  | Format | Sampling Rate | Channel | Word Depth| 
+|:---:|:---:|:---:|:---:|:---:|
+| 4 secs | .wav | 44100 Hz |mono | 16 bits | 
   
- | Clip Duration  | Format | Sampling Rate | Count | Categories| Folds | Rail samples | Traffic samples
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 4 secs | .wav | 44100 Hz |1527 | 2 | 10 | 620 | 907 |
+| Total samples | Categories| Folds | Rail samples | Traffic samples
+|:---:|:---:|:---:|:---:|:---:|
+|1527 | 2 | 10 | 620 | 907 |
  
   The details of the dataset are listed 
  in Table ‎7.28. The parameters used for the model, and the training complexity statistics are captured in Table ‎7.29.
