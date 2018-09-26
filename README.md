@@ -74,11 +74,12 @@ If you are using YorNoise dataset in your research, please cite:
 > <a href="https://arxiv.org/ftp/arxiv/papers/1805/1805.10004.pdf"><img src="https://img.shields.io/badge/download-.pdf-blue.svg" alt="download paper" title="download paper" align="right" /></a>
 > [DOI: https://doi.org/10.1007/978-3-319-71078-5_2]
 
+
+
 ## License 
- This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial 3.0 License</a>.
- <div align="right">
-  <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br />
-</div>
+
+ This YorNoise dataset is offered free of charge for non-commercial use only under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">
+ Creative Commons Attribution-NonCommercial 3.0 License</a>.
  
 
 ## References
