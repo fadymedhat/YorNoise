@@ -50,7 +50,14 @@ We listened to all the captured clips, which were 5 minutes each to validate the
  classID : the class id for the combined datasets [0, 11]
 ```
 
+## Citing YorNoise
+If you are using YorNoise dataset in your research, please cite:
 
+> Fady Medhat, David  Chesmore and John Robinson, **Masked Conditional Neural Networks for Environmental Sound 
+> Classification**, *Artificial Intelligence XXXIV*. SGAI, 2017.
+>
+> <a href="https://arxiv.org/ftp/arxiv/papers/1805/1805.10004.pdf"><img src="https://img.shields.io/badge/download-.pdf-blue.svg" alt="download paper" title="download paper" align="right" /></a>
+> [DOI: https://doi.org/10.1007/978-3-319-71078-5_2]
 
 ## References
 
