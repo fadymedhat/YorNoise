@@ -77,7 +77,7 @@ If you are using YorNoise dataset in your research, please cite:
 
 
 ## License 
- The YorNoise dataset is recorded and edited by Fady Medhat.  
+ All files of the YorNoise dataset are recorded and edited by Fady Medhat.  
  YorNoise dataset is offered free of charge for non-commercial use only under the terms of the <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">
  Creative Commons Attribution-NonCommercial 3.0 License</a>.
  
