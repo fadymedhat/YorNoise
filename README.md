@@ -10,24 +10,28 @@ Rail traffic was collected near the rail tracks outside the train station to avo
 and the station loudspeaker announcements. The rail sounds were captured for trains of different sizes and types, e.g. cargo, passengers, etc., over tracks of 
 varying distances from the microphone. The time taken by the longest train to pass across a microphone is approximately 40 seconds and the shortest 20 seconds. 
 
-## Audio Validation
+## Audio Capturing
+All recordings were captured by a professional recorder (TASCAM DR-40) fitted on a tripod at the height of 1 m above the ground. 
+The below table lists the captured files properties.
+
+   | Format | Sampling Rate | Channel | Word Depth| 
+|:---:|:---:|:---:|:---:|
+ | .wav | 44100 Hz |mono | 16 bits | 
+
+## Dataset Editing
 
 We listened to all the captured clips, which were 5 minutes each to validate the clips we were going to include in the 
  dataset. Sounds of 4 seconds in duration were found to be sufficient for the human to distinguish environmental sounds as studied 
  in [1]. Accordingly, all validated files were split into 4-second clips. We listened to all the 4 second files and 
- dropped the files that were less than 4 seconds or silent ones. The filtered files were further redistributed into 10-folds. 
+ dropped the ones that are less than 4 seconds or silent. The filtered files were further redistributed into 10-folds. 
  The folds distribution considered that all 4-second clips belonging to the same original 5 minutes file reside in the same fold 
  to avoid contaminating the folds with sounds from the same origin and consequently biasing the testing accuracy. 
  
  A summary of the dataset is listed below:
- 
-  | Clip Duration  | Format | Sampling Rate | Channel | Word Depth| 
+
+| Total samples | Clip Duration | Folds | Rail samples | Traffic samples | 
 |:---:|:---:|:---:|:---:|:---:|
-| 4 secs | .wav | 44100 Hz |mono | 16 bits | 
-  
-| Total samples | Categories| Folds | Rail samples | Traffic samples
-|:---:|:---:|:---:|:---:|:---:|
-|1527 | 2 | 10 | 620 | 907 |
+|1527 | 4 secs | 2 | 10 | 620 | 907 |
  
   The details of the dataset are listed 
  in Table ‎7.28. The parameters used for the model, and the training complexity statistics are captured in Table ‎7.29.
