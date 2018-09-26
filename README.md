@@ -33,24 +33,9 @@ We listened to all the captured clips, which were 5 minutes each to validate the
 |:---:|:---:|:---:|:---:|:---:|:---:|
 |1527 | 4 secs |2 | 10 | 620 | 907 |
  
-  The details of the dataset are listed 
- in Table ‎7.28. The parameters used for the model, and the training complexity statistics are captured in Table ‎7.29.
+## Metda-data .csv
+  The dataset 
  
- 
- The sound recordings were captured by a professional recorder (TASCAM DR-40) fitted on a tripod at the height of 1 m.
- The dataset was recorded at a sampling rate of 44 kHz with a mono channel, and a word depth of 16 bits. 
- 
-
-
-
-
-
-
-
- 
-
-The [YorNoise](https://github.com/fadymedhat/YorNoise) environmental sound dataset.
-
 
 
 Dataset Summary:
