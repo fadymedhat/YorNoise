@@ -29,24 +29,15 @@ We listened to all the captured clips, which were 5 minutes each to validate the
  
  | Clip Duration  | Format | Sampling Rate | Count | Categories| Folds
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| 4 secs | .wav | 44100 |1527 | 2 | 10
+| 4 secs | .wav | 44100 Hz |1527 | 2 | 10 |
 
-Total #
-1527
-Files format
-.wav
-Classes #
-2
-Classes (instances)
-Rail (620)
-Traffic (907)
-Files arrangement
-10-folds
-Sampling Rate
-44100 Hz
-File Duration
-4 seconds
-1 https://
+
+ | Category  | Samples Count |
+|:---:|:---:|
+| Rail | 620 | 
+| Traffic | 907 | 
+
+
  
 
 The [YorNoise](https://github.com/fadymedhat/YorNoise) environmental sound dataset.
