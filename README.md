@@ -35,6 +35,7 @@ We listened to all the captured clips, which were 5 minutes each to validate the
  | Category  | Samples Count |
 |:---:|:---:|
 | Rail | 620 | 
+| Traffic | 907 |
 | Traffic | 907 | 
 
 
