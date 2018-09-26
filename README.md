@@ -29,9 +29,9 @@ We listened to all the captured clips, which were 5 minutes each to validate the
  
  A summary of the dataset is listed below:
 
-| Total samples | Clip Duration | Folds | Rail samples | Traffic samples | 
-|:---:|:---:|:---:|:---:|:---:|
-|1527 | 4 secs | 2 | 10 | 620 | 907 |
+| Total samples | Clip Duration | Classes  | Folds | Rail samples | Traffic samples | 
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|1527 | 4 secs |2 | 10 | 620 | 907 |
  
   The details of the dataset are listed 
  in Table ‎7.28. The parameters used for the model, and the training complexity statistics are captured in Table ‎7.29.
@@ -51,9 +51,7 @@ We listened to all the captured clips, which were 5 minutes each to validate the
 
 The [YorNoise](https://github.com/fadymedhat/YorNoise) environmental sound dataset.
 
-| Clip Duration  | Format | Count | Categories|
-|:---:|:---:|:---:|:---:|
-| 4 secs | .wav | 1527 | 2 |
+
 
 Dataset Summary:
  * Clips are 4-seconds in length with 44100 Hz sampling rates.
