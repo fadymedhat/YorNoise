@@ -43,12 +43,24 @@ We listened to all the captured clips, which were 5 minutes each to validate the
         [UrbanSound8K](https://urbansounddataset.weebly.com/urbansound8k.html).
      
 
-```
- dataset_seq : the file id across both datasets combined [0, 10258]
- per_class_seq : the id of the file across other files in the same category (zero-indexed)
- fold : fold id of a file [1, 10] (10 folds for cross-validation)
- classID : the class id for the combined datasets [0, 11]
-```
+* __dataset_seq :__ the file id across both datasets combined [0, 10258]
+* __per_class_seq :__ the id of the file across other files in the same category (zero-indexed)
+* __fold :__ fold id of a file [1, 10] (10 folds for cross-validation)
+* __classID :__ the class id for the combined datasets [0, 11]. Classes of id from 0 to 9 belong to UrbanSound8k and ids 10 and 11 are of YorNoise. 
+    * 0 = air_conditioner
+    * 1 = car_horn
+    * 2 = children_playing
+    * 3 = dog_bark
+    * 4 = drilling
+    * 5 = engine_idling
+    * 6 = gun_shot
+    * 7 = jackhammer
+    * 8 = siren
+    * 9 = street_music
+    * 10 = rail
+    * 11 = traffic
+    
+
 
 ## Citing YorNoise
 If you are using YorNoise dataset in your research, please cite:
