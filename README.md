@@ -19,6 +19,13 @@ We listened to all the captured clips, which were 5 minutes each to validate the
  The folds distribution considered that all 4-second clips belonging to the same original 5 minutes file reside in the same fold 
  to avoid contaminating the folds with sounds from the same origin and consequently biasing the testing accuracy. 
  
+ A summary of the dataset is listed below:
+ 
+  
+ | Clip Duration  | Format | Sampling Rate | Count | Categories| Folds | Rail samples | Traffic samples
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 4 secs | .wav | 44100 Hz |1527 | 2 | 10 | 620 | 907 |
+ 
   The details of the dataset are listed 
  in Table ‎7.28. The parameters used for the model, and the training complexity statistics are captured in Table ‎7.29.
  
@@ -26,17 +33,11 @@ We listened to all the captured clips, which were 5 minutes each to validate the
  The sound recordings were captured by a professional recorder (TASCAM DR-40) fitted on a tripod at the height of 1 m.
  The dataset was recorded at a sampling rate of 44 kHz with a mono channel, and a word depth of 16 bits. 
  
- 
- | Clip Duration  | Format | Sampling Rate | Count | Categories| Folds
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| 4 secs | .wav | 44100 Hz |1527 | 2 | 10 |
 
 
- | Category  | Samples Count |
-|:---:|:---:|
-| Rail | 620 | 
-| Traffic | 907 |
-| Traffic | 907 | 
+
+
+
 
 
  
